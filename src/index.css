@@ -1,0 +1,23 @@
+@import "tailwindcss";
+aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+aside div h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+aside div ul li input{
+    margin-right: 20px;
+}
+aside div ul li {
+    font-size: 17px;
+}
+aside div ul {
+    margin-top: 20px;
+}
+input,label{cursor: pointer;}
+/* border flex flex-col items-center */
+input.simple-cursor{cursor: auto;}
