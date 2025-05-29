@@ -9,8 +9,10 @@ const App = () => {
   return (
     <div>
       <Navbar shoesData={shoesData} setShoesData={setShoesData}/>
-      <Sidebar shoesData={shoesData} setShoesData={setShoesData} />
+     <div className="flex items-start">
+       <Sidebar shoesData={shoesData} setShoesData={setShoesData} />
     <DisplayShoes shoesData={shoesData}/>
+     </div>
     </div>
   )
 }

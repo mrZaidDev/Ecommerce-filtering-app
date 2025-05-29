@@ -86,7 +86,7 @@ const Sidebar = ({ shoesData, setShoesData }) => {
   
 
   return (
-    <aside className="w-18/100 h-[100vh] fixed left-0 top-0 border-r-1">
+    <aside className="h-screen w-[150px]  border-r-1 z-10 sm:w-[170px]">
       {/* category */}
       <div className="">
         <h1 className="">Category</h1>
@@ -187,7 +187,7 @@ const Sidebar = ({ shoesData, setShoesData }) => {
       </div>
       {/* color */}
       <div>
-        <h1>Color</h1>
+        <h1 className="">Color</h1>
         <ul className="">
           <li>
             <input name="color" type="radio" id="all-col" onClick={handleAllColors}/>
