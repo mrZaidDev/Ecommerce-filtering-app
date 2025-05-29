@@ -1,9 +1,10 @@
+
 const shoesData = [
        {
         title:'running-red-1',
         category:'running',
         company:'nike',
-        img:'../public/Shoes/running-red-1.jpg',
+        img:`${process.env.PUBLIC_URL}/Shoes/running-red-1.jpg`,
         color:'red',
         prize:200
     },
