@@ -1,10 +1,11 @@
 
+
 const shoesData = [
        {
         title:'running-red-1',
         category:'running',
         company:'nike',
-        img:`${process.env.PUBLIC_URL}/Shoes/running-red-1.jpg`,
+        img:`${import.meta.env.BASE_URL}/Shoes/running-red-1.jpg`,
         color:'red',
         prize:200
     },
@@ -12,7 +13,7 @@ const shoesData = [
         title:'running-red-2',
         category:'running',
         company:'smart',
-        img:'../public/Shoes/running-red-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-red-2.jpg`,
         color:'red',
         prize:200
     },
@@ -20,7 +21,7 @@ const shoesData = [
         title:'running-red-3',
         category:'running',
         company:'adidas',
-        img:'../public/Shoes/running-red-3.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-red-3.jpg`,
         color:'red',
         prize:130
     },
@@ -29,7 +30,7 @@ const shoesData = [
         title:'football-white-2',
         category:'football',
         company:'nike',
-        img:'../public/Shoes/football-white-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-white-2.jpg`,
         color:'white',
         prize:150
     },
@@ -37,7 +38,7 @@ const shoesData = [
         title:'football-red-1',
         category:'football',
         company:'adidas',
-        img:'../public/Shoes/football-red-1.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-red-1.jpg`,
         color:'red',
         prize:75
     },
@@ -45,7 +46,7 @@ const shoesData = [
         title:'football-red-2',
         category:'football',
         company:'smart',
-        img:'../public/Shoes/football-red-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-red-2.jpg`,
         color:'red',
         prize:100
     },
@@ -53,7 +54,7 @@ const shoesData = [
         title:'running-black-1',
         category:'running',
         company:'smart',
-        img:'../public/Shoes/running-black-1.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-black-1.jpg`,
         color:'black',
         prize:120
     },
@@ -61,7 +62,7 @@ const shoesData = [
         title:'running-black-2',
         category:'running',
         company:'smart',
-        img:'../public/Shoes/running-black-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-black-2.jpg`,
         color:'black',
         prize:120
     },
@@ -69,7 +70,7 @@ const shoesData = [
         title:'running-black-3',
         category:'running',
         company:'smart',
-        img:'../public/Shoes/running-black-3.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-black-3.jpg`,
         color:'black',
         prize:135
     },
@@ -77,7 +78,7 @@ const shoesData = [
         title:'running-black-4',
         category:'running',
         company:'adidas',
-        img:'../public/Shoes/running-black-4.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-black-4.jpg`,
         color:'black',
         prize:200
     },
@@ -86,7 +87,7 @@ const shoesData = [
         title:'running-red-4',
         category:'running',
         company:'nike',
-        img:'../public/Shoes/running-red-4.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-red-4.jpg`,
         color:'red',
         prize:135
     },
@@ -94,7 +95,7 @@ const shoesData = [
         title:'running-white-1',
         category:'running',
         company:'nike',
-        img:'../public/Shoes/running-white-1.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-white-1.jpg`,
         color:'white',
         prize:15
     },
@@ -102,7 +103,7 @@ const shoesData = [
         title:'chapals-white-1',
         category:'chapal',
         company:'adidas',
-        img:'../public/Shoes/chapals-white-1.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/chapals-white-1.jpg`,
         color:'white',
         prize:25
     },
@@ -110,7 +111,7 @@ const shoesData = [
         title:'chapals-white-2',
         category:'chapal',
         company:'adidas',
-        img:'../public/Shoes/chapals-white-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/chapals-white-2.jpg`,
         color:'white',
         prize:75,
     },
@@ -118,7 +119,7 @@ const shoesData = [
         title:'chapals-white-3',
         category:'chapal',
         company:'nike',
-        img:'../public/Shoes/chapals-white-3.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/chapals-white-3.jpg`,
         color:'white',
         prize:49,
     },
@@ -126,7 +127,7 @@ const shoesData = [
         title:'football-black-1',
         category:'football',
         company:'adidas',
-        img:'../public/Shoes/football-black-1.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-black-1.jpg`,
         color:'black',
         prize:100
     },
@@ -134,7 +135,7 @@ const shoesData = [
         title:'football-black-2',
         category:'football',
         company:'nike',
-        img:'../public/Shoes/football-black-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-black-2.jpg`,
         color:'black',
         prize:150
     },
@@ -142,7 +143,7 @@ const shoesData = [
         title:'football-black-4',
         category:'football',
         company:'smart',
-        img:'../public/Shoes/football-black-4.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-black-4.jpg`,
         color:'black',
         prize:220
     },
@@ -150,7 +151,7 @@ const shoesData = [
         title:'football-black-5',
         category:'football',
         company:'adidas',
-        img:'../public/Shoes/football-black-5.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-black-5.jpg`,
         color:'black',
         prize:150
     },
@@ -158,7 +159,7 @@ const shoesData = [
         title:'football-black-6',
         category:'football',
         company:'adidas',
-        img:'../public/Shoes/football-black-6.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/football-black-6.jpg`,
         color:'black',
         prize:175
     },
@@ -166,7 +167,7 @@ const shoesData = [
         title:'running-white-2',
         category:'running',
         company:'smart',
-        img:'../public/Shoes/running-white-2.jpg',
+        img:`${import.meta.env.BASE_URL}/Shoes/running-white-2.jpg`,
         color:'white',
         prize:25
     },
